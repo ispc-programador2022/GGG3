@@ -1,0 +1,5 @@
+[gui_scripts]
+ee = vrequest.main:algo
+vrequest = vrequest.main:execute
+vv = vrequest.main:execute
+

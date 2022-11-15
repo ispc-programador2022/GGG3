@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: vrequest
+Version: 1.9.16
+Summary: UNKNOWN
+Home-page: https://github.com/cilame/vrequest
+Author: cilame
+Author-email: opaquism@hotmail.com
+License: MIT
+Keywords: vrequest
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: lxml
+
+UNKNOWN
+
