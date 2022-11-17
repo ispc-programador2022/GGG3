@@ -38,6 +38,41 @@ fsl = len(precios) - len(equipos)
 
 df = pd.DataFrame({"Nombres equipos": equipos, "Precios": precios}, index = list(range(fsl,ssl)))
 
+Samsung = 0
+Motorola = 0
+Xiaomi = 0
+iPhone = 0
+otros = 0
+
+
+def difMarcas():
+    Samsung = []
+    Motorola = []
+    Xiaomi = []
+    iPhone = []
+    otros = []
+    for i in equipos:
+        if "Samsung" in i:
+            Samsung.append(i),
+        if "Motorola" in i:
+            Motorola.append(i),
+        if "Xiaomi" in i:
+            Xiaomi.append(i),
+        if "iPhone" in i:
+            iPhone.append(i),
+        else:
+            otros.append(i),
+
+    print("Samsung: ", (len(Samsung)))
+    print("Motorola: ", (len(Motorola)))
+    print("Xiaomi: ", (len(Xiaomi)))
+    print("iPhone", (len(iPhone)))
+    print("Otros: ", (int(len(otros) - len(Samsung) - len(Motorola) - len(Xiaomi) - len(iPhone))))
+
+
+
+difMarcas()
+
 print(df)
 
 df.to_csv("CelularesFravega.csv", index=False)
