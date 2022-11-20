@@ -3,7 +3,7 @@ Repositorio para presentar el trabajo integrador final
 
 Integrantes:
 Gurrea Federico
-Alarcon Rubi
+Garcia Alarcon Rubi Nohemi
 
 La idea del proyecto es analizar las marcas y precios de los celulares en una página de venta de electrodomésticos (Para éste caso elegimos la  página de fravega)
 
